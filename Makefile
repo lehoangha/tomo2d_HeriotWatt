@@ -3,8 +3,8 @@
 CCC = /usr/bin/g++
 CC  = /usr/bin/gcc
 CFLAGS = -ansi -O3 #-pg
-HOME = /home/lehoangha/
-PWD = /home/lehoangha/Distrib
+HOME = /home/lehoangha/tomo2d_heriotwatt
+PWD = /home/lehoangha/tomo2d_heriotwatt
 INCLUDE = -I${PWD}
 
 SRC_GEN_SMESH = gen_smesh.cc zeltform.cc \

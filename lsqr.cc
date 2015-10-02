@@ -6,8 +6,11 @@
  */
 
 #include <cmath>
+#include <cstdlib>
 #include "lsqr.h"
 #include <error.h>
+
+using namespace std;
 
 // solve Ax = b
 int iterativeSolver_LSQR(const SparseRectangular& A, const Array1d<double>& b,

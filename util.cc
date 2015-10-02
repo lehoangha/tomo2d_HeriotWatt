@@ -7,9 +7,12 @@
 
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 #include "array.h"
 #include "util.h"
 #include "error.h"
+
+using namespace std;
 
 int countLines(const char *fn)
 {

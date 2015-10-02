@@ -21,13 +21,13 @@ public:
 
     heap_deque(const Cmp& cmp) : _cmp(cmp) { make_heap(deque<T>::begin(),deque<T>::end(),_cmp); }
 
-	 void push(const T& a){ push_back(a); push_heap(deque<T>::begin(),deque<T>::end(),_cmp); }
+	 void push(const T& a){ this->push_back(a); push_heap(deque<T>::begin(),deque<T>::end(),_cmp); }
 	 void pop() { pop_heap(deque<T>::begin(),deque<T>::end(),_cmp); deque<T>::pop_back(); }
 	 const T& top() const { return deque<T>::front(); }
 
     void promote(const_iterator);
     void demote(const_iterator){ cerr << "heap_deque.demote(): not implemented yet\n"; };
-    void push_only(const T& a){ push_back(a); }
+    void push_only(const T& a){ this->push_back(a); }
     void reheap(){ make_heap(deque<T>::begin(),deque<T>::end(),_cmp); }
     
 private:

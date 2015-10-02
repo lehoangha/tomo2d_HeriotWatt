@@ -7,8 +7,11 @@
 
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 #include <util.h>
 #include "corrlen.h"
+
+using namespace std;
 
 CorrelationLength1d::CorrelationLength1d(const char* fn)
     : eps(1e-6)

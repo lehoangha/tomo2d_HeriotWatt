@@ -5,9 +5,11 @@
  * January 1999
  */
 
-#include <iostream.h>
+#include <iostream>
 #include <cstdlib>
 #include "error.h"
+
+using namespace std;
 
 void error(string s)
 {
