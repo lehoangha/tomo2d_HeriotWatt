@@ -1,0 +1,11 @@
+# GMT common arguments shelf
+-Ba5:x [km]:/a2:z [km]:WeSn
+-JX2.5/-1.4
+-R0/40/-1/10
+-X1.5
+-x3.3
+-Y7
+-y-2.6
+EOF
+
+
